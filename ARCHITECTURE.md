@@ -11,7 +11,8 @@ online worker that advertises the required task key.
   startup and stay alive via heartbeat. No manual worker configuration in the
   center.
 - **Polyglot by design.** The control plane is plain HTTP/JSON, so a worker can
-  be written in any language. Officially maintained SDKs: Go, Rust, C#, TypeScript.
+  be written in any language. Officially maintained SDKs: Go, Rust, C#, TypeScript,
+  JVM (Java/Kotlin).
 - **Copy-in friendly SDKs.** The SDKs are tiny and meant to be vendored into your
   project (copy the folder / use as a git submodule). They are intentionally not
   published to central package registries, so there is no publish step to block adoption.
@@ -95,3 +96,4 @@ e.g. `http://localhost:8081`.
 - `sdk/rust` → [task-scheduler-lib-rust](https://github.com/neko233-com/task-scheduler-lib-rust)
 - `sdk/csharp` → [task-scheduler-lib-csharp](https://github.com/neko233-com/task-scheduler-lib-csharp)
 - `sdk/typescript` → [task-scheduler-lib-typescript](https://github.com/neko233-com/task-scheduler-lib-typescript)
+- `sdk/jvm` → [task-scheduler-lib-jvm](https://github.com/neko233-com/task-scheduler-lib-jvm)

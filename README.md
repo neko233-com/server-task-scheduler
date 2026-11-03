@@ -7,7 +7,7 @@ tasks they can run. When a cron schedule fires, the center dispatches it to any
 online worker that advertises the required task key.
 
 - **Auto-registration** — workers register + heartbeat; no manual worker config.
-- **Polyglot** — control plane is plain HTTP/JSON. SDKs for Go / Rust / C# / TypeScript.
+- **Polyglot** — control plane is plain HTTP/JSON. SDKs for Go / Rust / C# / TypeScript / JVM (Java/Kotlin).
 - **Copy-in friendly SDKs** — vendored into your project (or used as a submodule).
   No package-registry publish step required.
 
@@ -64,7 +64,7 @@ server-task-scheduler/
 │   ├── scheduler/          # cron evaluation + dispatch loop
 │   └── api/                # HTTP/JSON control plane
 ├── sdk/                    # public submodules (see ARCHITECTURE.md)
-│   ├── go/  rust/  csharp/  typescript/
+│   ├── go/  rust/  csharp/  typescript/  jvm/
 ├── ARCHITECTURE.md         # protocol contract
 └── README.md
 ```
@@ -77,3 +77,4 @@ server-task-scheduler/
 | Rust | [task-scheduler-lib-rust](https://github.com/neko233-com/task-scheduler-lib-rust) |
 | C# | [task-scheduler-lib-csharp](https://github.com/neko233-com/task-scheduler-lib-csharp) |
 | TypeScript | [task-scheduler-lib-typescript](https://github.com/neko233-com/task-scheduler-lib-typescript) |
+| JVM (Java/Kotlin) | [task-scheduler-lib-jvm](https://github.com/neko233-com/task-scheduler-lib-jvm) |

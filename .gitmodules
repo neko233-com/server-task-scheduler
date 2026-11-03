@@ -10,3 +10,6 @@
 [submodule "sdk/typescript"]
 	path = sdk/typescript
 	url = https://github.com/neko233-com/task-scheduler-lib-typescript.git
+[submodule "sdk/jvm"]
+	path = sdk/jvm
+	url = https://github.com/neko233-com/task-scheduler-lib-jvm.git
