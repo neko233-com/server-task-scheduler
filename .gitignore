@@ -1,0 +1,10 @@
+# Local WorkBuddy project data — never publish
+.workbuddy/
+
+# Runtime data (schedules + execution log)
+/data/
+/verify_data/
+
+# Build artifacts
+*.exe
+/server-task-scheduler

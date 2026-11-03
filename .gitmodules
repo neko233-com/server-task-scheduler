@@ -1,0 +1,12 @@
+[submodule "sdk/go"]
+	path = sdk/go
+	url = https://github.com/neko233-com/task-scheduler-lib-go.git
+[submodule "sdk/rust"]
+	path = sdk/rust
+	url = https://github.com/neko233-com/task-scheduler-lib-rust.git
+[submodule "sdk/csharp"]
+	path = sdk/csharp
+	url = https://github.com/neko233-com/task-scheduler-lib-csharp.git
+[submodule "sdk/typescript"]
+	path = sdk/typescript
+	url = https://github.com/neko233-com/task-scheduler-lib-typescript.git
